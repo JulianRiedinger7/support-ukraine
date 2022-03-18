@@ -1,0 +1,17 @@
+@import "colors";
+@import "header";
+
+footer{
+    background-color: $ukraine_yellow;
+    text-align: center;
+    h5{
+        color: $ukraine_blue;
+    }
+    a{
+        color: $ukraine_blue;
+        &:hover{
+            opacity: .7;
+            transition: all .7s;
+        }
+    }
+}

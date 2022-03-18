@@ -1,0 +1,64 @@
+@import "colors";
+
+.hero{
+    background-image: url(../img/header-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $ukraine_blue;
+        background-color: $ukraine_yellow;
+        padding: 1rem 2rem 1rem 2rem;
+        border-radius: 5px;
+        transition: all 1s;
+        &:hover{
+            background-color: $ukraine_blue;
+            color: $ukraine_yellow;
+            
+        }
+    }
+}
+
+nav{
+    padding: .5rem 0 .5rem 0;
+    background-color: $ukraine_yellow;
+    position: sticky;
+    top: 0;
+    ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        li{
+            &:not(:last-child){
+                padding-right: 3rem;
+            }
+            a{
+                text-decoration: none;
+                font-size: 1.3rem;
+                color: $ukraine_blue;
+                &:hover{
+                    opacity: .7;
+                    transition: .7s;
+                }
+            }
+            
+            
+        }
+    }
+}
+
+h1{
+    font-size: 5rem;
+    color: $ukraine_blue;
+    span{
+        color: $ukraine_yellow;
+    }
+}
+

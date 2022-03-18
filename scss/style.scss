@@ -1,0 +1,32 @@
+@import "colors";
+@import "header";
+@import "main";
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+@import "footer";
+@import "medias";
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Sawarabi Mincho', serif;
+    color: $color_principal;
+}
+
+#help,
+#war{
+    img{
+        transition: all .7s;
+        &:hover{
+            transform: translateY(1rem);
+            opacity: .8;
+        }
+    }
+    
+}
